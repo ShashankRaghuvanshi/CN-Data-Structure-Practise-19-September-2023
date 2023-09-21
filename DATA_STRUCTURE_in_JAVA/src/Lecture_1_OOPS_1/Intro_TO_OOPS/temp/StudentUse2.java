@@ -1,6 +1,6 @@
-package Lecture_1_OOPS_1.temp;
+package Lecture_1_OOPS_1.Intro_TO_OOPS.temp;
 
-import Lecture_1_OOPS_1.classes_and_objects.Student;
+import Lecture_1_OOPS_1.Intro_TO_OOPS.classes_and_objects.Student;
 
 public class StudentUse2 
 {

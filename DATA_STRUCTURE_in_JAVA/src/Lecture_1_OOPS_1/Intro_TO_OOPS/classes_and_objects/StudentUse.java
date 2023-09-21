@@ -1,4 +1,4 @@
-package Lecture_1_OOPS_1.classes_and_objects;
+package Lecture_1_OOPS_1.Intro_TO_OOPS.classes_and_objects;
 
 import java.util.Scanner;
 
