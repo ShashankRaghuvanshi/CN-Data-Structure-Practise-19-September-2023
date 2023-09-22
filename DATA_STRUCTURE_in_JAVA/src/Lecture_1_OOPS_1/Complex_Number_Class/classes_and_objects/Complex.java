@@ -57,7 +57,7 @@ public class Complex
     
     public void conjugate()
     {
-        this.real = this.real;
+        //this.real = this.real;
         this.imaginary = - this.imaginary;
     }
 }
