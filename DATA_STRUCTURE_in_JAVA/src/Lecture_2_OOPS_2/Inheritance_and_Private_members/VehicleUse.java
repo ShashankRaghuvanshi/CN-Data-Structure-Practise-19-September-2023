@@ -13,7 +13,6 @@ public class VehicleUse
         c.numGears = 10;
         c.color = "Black";
         c.setMaxSpeed(100);
-        
         c.print();      //car print() function overide the print() of vehicle
         
     }
