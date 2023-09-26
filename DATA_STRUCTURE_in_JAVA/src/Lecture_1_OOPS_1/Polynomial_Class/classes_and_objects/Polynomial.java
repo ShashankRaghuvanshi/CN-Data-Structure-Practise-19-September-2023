@@ -9,6 +9,8 @@ public class Polynomial
         degCoeff = new int[10];
     }
 
+    //dynamically adding the degree of Polynomial in an array 
+    //MOST IMPORTANT CONCEPT IN POLYNOMIAL 
     public void setCoefficient(int degree, int coeff)
     {
         if(degree > degCoeff.length-1)

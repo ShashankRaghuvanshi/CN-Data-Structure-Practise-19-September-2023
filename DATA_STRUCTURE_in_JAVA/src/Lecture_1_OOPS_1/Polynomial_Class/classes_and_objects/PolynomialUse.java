@@ -7,35 +7,41 @@ public class PolynomialUse
     public static void main(String[] args) 
     {
         Scanner s = new Scanner(System.in);
+        System.out.println("Size of degree for Polynomial first ");
         int n = s.nextInt();
 
         int degree1[] = new int[n];
+        System.out.println("Enter the degree size for each x for Polynomial first ");
         for(int i=0; i<n; i++)
         {
             degree1[i] = s.nextInt();
         }
 
         int coeff1[] = new int[n];
+        System.out.println("Enter the coefficient for each x for Polynomial first ");
         for(int i=0; i<n; i++)
         {
             coeff1[i] = s.nextInt();
         }
 
         Polynomial first = new Polynomial();
-
         for(int i=0; i<n; i++)
         {
             first.setCoefficient(degree1[i], coeff1[i]);
         }
 
+        System.out.println("Size of degree for Polynomial second ");
         n = s.nextInt();
+
         int degree2[] = new int[n];
+        System.out.println("Enter the degree size for each x for Polynomial second ");
         for(int i=0; i<n; i++)
         {
             degree2[i] = s.nextInt();
         }
 
         int coeff2[] = new int[n];
+        System.out.println("Enter the coefficient for each x for Polynomial second ");
         for(int i=0; i<n; i++)
         {
             coeff2[i] = s.nextInt();
@@ -47,7 +53,7 @@ public class PolynomialUse
             second.setCoefficient(degree2[i], coeff2[i]);
         }
 
-
+        System.out.println("Enter the choice 1 for addition, 2 for subtraction, 3 for multiply ");
         int choice = s.nextInt();
         Polynomial result;
         switch(choice)
