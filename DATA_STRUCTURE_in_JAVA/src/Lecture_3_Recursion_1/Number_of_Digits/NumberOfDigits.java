@@ -16,6 +16,6 @@ public class NumberOfDigits
         int n = sc.nextInt();
         int ans = numberOfDigits(n);
         System.out.println(ans);
-        sc.nextInt();
+        sc.close();
     }
 }
