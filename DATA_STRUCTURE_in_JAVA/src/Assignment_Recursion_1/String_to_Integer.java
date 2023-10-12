@@ -6,13 +6,15 @@ public class String_to_Integer
 {
     public static int string_to_Integer(String input)
     {
-        if(input.length() == 1){
+        if(input.length() == 1)
+        {
             return input.charAt(0) - '0';
         }
+
         int smallOutput = string_to_Integer(input.substring(0, input.length()-1));
+
         int lastDigit = input.charAt(input.length()-1) - '0';
         return smallOutput*10 + lastDigit;
-        
     }
 
     public static void main(String[] args) 
