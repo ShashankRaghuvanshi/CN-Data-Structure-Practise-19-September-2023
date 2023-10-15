@@ -1,4 +1,4 @@
-package Lecture_4_Recursion_2;
+package Lecture_4_Recursion_2.Merge_Sort;
 
 import java.util.Scanner;
 
