@@ -2,6 +2,7 @@ package Lecture_4_Recursion_2.Merge_Sort;
 
 import java.util.Scanner;
 
+//Divide and Conquer
 public class Merge_Sort_Better 
 {
     public static void mergeSort(int a[])
