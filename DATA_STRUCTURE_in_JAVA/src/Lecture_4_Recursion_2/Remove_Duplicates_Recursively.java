@@ -1,4 +1,4 @@
-package Lecture_4_Recursion_2.Recrursion_and_Strings;
+package Lecture_4_Recursion_2;
 
 import java.util.Scanner;
 
